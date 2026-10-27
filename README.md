@@ -32,3 +32,14 @@ Le workflow est déclenché automatiquement lors des commits sur main.
 - Commandes tactiles utilisables au doigt et avec un stylet Android compatible
 
 **Limite** : la sélection s'applique aux pixels de teinte proche dans toute l'image, et pas seulement à l'objet touché. Une sélection localisée au lasso, les masques et le traitement des objets restent à développer. L'APK et l'ergonomie n'ont pas encore été testés sur un téléphone.
+
+## Version 0.5 — annotations de photos professionnelles
+- Flèches pointant vers une zone touchée
+- Bulles de commentaire avec texte libre
+- Texte libre positionné sur la photo
+- Six couleurs pour les annotations
+- Suppression de la dernière annotation et historique Annuler/Rétablir
+- Utilisation par contact tactile, doigt ou stylet Android compatible
+- Les annotations sont incluses dans les exports PNG/JPEG
+
+Limites actuelles : les annotations ne se déplacent pas encore individuellement après placement, le texte n'est pas redimensionnable et l'application n'a pas encore été validée sur appareil.
