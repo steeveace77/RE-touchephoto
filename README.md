@@ -43,3 +43,11 @@ Le workflow est déclenché automatiquement lors des commits sur main.
 - Les annotations sont incluses dans les exports PNG/JPEG
 
 Limites actuelles : les annotations ne se déplacent pas encore individuellement après placement, le texte n'est pas redimensionnable et l'application n'a pas encore été validée sur appareil.
+
+## Version 0.6 — détourage initial
+- Pipette sur une couleur du fond à retirer
+- Seuil de sélection et douceur des contours réglables
+- Prévisualisation de la transparence et export du sujet en PNG transparent
+- Fonctionnement par comparaison de couleurs HSV, **pas par reconnaissance automatique d'objet**
+
+Limites : les fonds multicolores, les cheveux, les zones de couleur identique au sujet et les contours complexes peuvent être mal détourés. Lasso, masque à peindre et segmentation IA restent à développer. Compilation et test sur appareil non confirmés.
